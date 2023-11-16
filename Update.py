@@ -36,11 +36,9 @@ with open('site/_data/x.json', 'r+') as f:
     f.truncate()
     
 addContent("\n\n<article class=\"" + color + "\" id=\"" + str(data["num"]) + "\">")
-addContent("<div class=\"heading\">")
 addContent("\n<h2>" + x.strftime("%Y-%m-%d") + "</h2>")
-addContent("\n<p>&#x1F555;" + x.strftime("%H:%M") + "</p>")
-addContent("</div>")
-addContent("\n<p>" + message + "</p>")
+addContent("\n<p class=\"content\">" + message + "</p>")
+addContent("\n<p class=\"time\">&#x1F555;" + x.strftime("%H:%M") + "</p>")
 if q_image == "y":
     addContent("\n<figure><img src=\"./src/img/status/"+ image + "\"><figcaption>" + c_image +"</figcaption></figure>")
 

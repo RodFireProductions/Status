@@ -161,15 +161,18 @@ article {
     padding: .5em 1em;
     color: var(--font-color);
     background: var(--fg-img) var(--fg-color);
-}
 
-.heading {
     display: grid;
-    grid-auto-flow: column;
     align-items: center;
     justify-content: left;
     grid-gap: .5em;
+    
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "title time" "content content";
 }
+#article h2 { grid-area: title; }
+.time { grid-area: time; }
+.content { grid-area: content; }
 
 #status h2, #status p {
     margin: 5px 0;
