@@ -1,0 +1,29 @@
+---
+---
+<!DOCTYPE html>
+<html class={{page.theme}} lang="en">
+    <head>
+        <title>{{page.title}}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href={{'src/css/main.css'|relative_url}}>
+    </head>
+    <body>
+        <div id="page">
+            <header>
+                <h1 class="scared_h">{{page.title}}</h1>
+            </header>
+            <main>
+                <section>
+                    {{content}}
+                </section>
+                <section id="status">
+                    <!-- HTML Journal Formatted | https://journal.miso.town/ -->
+                    {% include status.html %}
+                </section>
+            </main>
+            <footer>
+            </footer>
+        </div>
+    </body>
+</html>
