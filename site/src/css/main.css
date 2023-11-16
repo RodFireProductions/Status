@@ -178,6 +178,10 @@ article {
     margin: 5px 0;
 }
 
+figure {
+	width: calc(100%  - 2em);
+}
+
 figure img {
     width: 90%;
     display: block;
