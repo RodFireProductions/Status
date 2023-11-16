@@ -13,17 +13,17 @@
             <header>
                 <h1 class="scared_h">{{page.title}}</h1>
             </header>
+            <aside id="info">
+                {{content}}
+            </aside>
             <main>
-                <section>
-                    {{content}}
-                </section>
+                <p class="center">There are {{ site.data.x.num }} statuses.</p>
                 <section id="status">
                     <!-- HTML Journal Formatted | https://journal.miso.town/ -->
                     {% include status.html %}
                 </section>
             </main>
-            <footer>
-            </footer>
+            
         </div>
     </body>
 </html>
