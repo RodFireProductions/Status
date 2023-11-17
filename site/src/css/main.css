@@ -171,11 +171,12 @@ article {
     grid-gap: .5em;
     
     grid-template-columns: auto 1fr;
-    grid-template-areas: "title time" "content content";
+    grid-template-areas: "title time" "content content" "image image";
 }
 #article h2 { grid-area: title; }
 .time { grid-area: time; }
 .content { grid-area: content; }
+figure { grid-area: image; }
 
 #status h2, #status p {
     margin: 5px 0;
