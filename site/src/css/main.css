@@ -113,7 +113,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent-color);
 }
 
-h1 { margin: 0; }
+h1 {
+	margin: 0;
+	text-align: center;
+}
 
 a { color: var(--accent-color); }
 a:hover { color: var(--font-color); }
@@ -180,6 +183,7 @@ article {
 
 figure {
 	width: calc(100%  - 2em);
+	margin: auto;
 }
 
 figure img {

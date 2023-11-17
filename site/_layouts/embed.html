@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>{{page.title}}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href={{'src/css/main.css'|relative_url}}>
+		<style>
+			article {
+				display: block;
+				width: calc(100% - 2em);
+				height: calc(100vh - 2em);
+				
+				overflow-y: auto;
+				
+				text-align: center;
+				
+			}
+			
+			@media only screen and (max-width: 290px) {
+				article {
+					grid-template-columns: 1fr;
+					grid-template-areas: "title" "time" "content";
+					grid-gap: 0px;
+				}
+			}
+		</style>
+    </head>
+    <body>
+		<main>
+			<article id="stat">
+				<noscript>JavaScript is needed for this to work.</noscript>
+			</article>
+		</main>
+    </body>
+	<script type="module">
+		const RSS_URL = `https://journal.miso.town/atom?url=https%3A%2F%2Fstatus.shroom.ink%2F`;
+		const ARTICLE = document.getElementById("stat");
+		let xml;
+	
+		async function getFeed() {
+			let response = await fetch(RSS_URL);
+			let data = await response.text();
+			let parsed = await new window.DOMParser().parseFromString(data, "text/xml");
+			const items = await parsed.querySelectorAll("entry");
+			const STATUS = await items[0].children[4].textContent;
+			const TITLE = await "<h1>" + items[0].children[0].textContent + "</h1>";
+			return TITLE + STATUS;
+		}
+		
+		async function main() {
+			const text = await getFeed();
+			let STATUS = text;
+			
+			
+			let position = text.search("./src")
+			if (position != -1) {
+				STATUS = text.slice(0, position) + "https://status.shroom.ink" + text.slice(position +1);
+			}
+			
+			ARTICLE.innerHTML = STATUS;
+			
+			let theme = urlValues().theme;
+			ARTICLE.classList.add(theme);
+		}
+		
+		function urlValues() {
+			let keystring = window.location.search.substring(1);
+			let keyarray = keystring.split('&');
+			let keys = {};
+
+			for (var i = 0; i < keyarray.length; i++) {
+				let keypair = keyarray[i].split('=');
+				let k1 = decodeURIComponent(keypair[0]);
+				let k2 = decodeURIComponent(keypair[1]);
+				keys[k1] = k2;
+
+			}
+
+			console.log(keys);
+			return keys;
+		}
+		
+		main();
+		
+	</script>
+</html>
