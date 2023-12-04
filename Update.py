@@ -46,9 +46,9 @@ addContent("\n</article>")
 
 try:
     line_prepender("site/_includes/status.html", code)
-
-finally:
     print("\nEntry " + str(data["num"]) + " written. <3")
+except:
+    print("\nAn error has occurred.")
+finally:
     print("-------")
-    
     
