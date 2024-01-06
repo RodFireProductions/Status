@@ -7,6 +7,9 @@ Run `Update.py` to update status. Run `Status Update.bat` to update status and p
 
 ## Running The Site
 
-bundle exec jekyll serve
+```
+> cd site
+> bundle exec jekyll serve
+```
 
 http://localhost:4000
