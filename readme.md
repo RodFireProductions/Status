@@ -9,7 +9,7 @@ Features:
 
 ## Updating Status
 
-Run `Update.py` to update status. Run `Status Update.bat` to update status and push to origin.
+Run `Update.py` to update status. To update the status, commit, and push to origin, you'll have to change the directory listed in `Status Update.bat` and then run it.
 
 ## Running The Site
 
