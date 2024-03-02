@@ -55,7 +55,7 @@ with open('site/_data/x.json', 'r+') as f:
 
 ## -- Creating the HTML -- ##
 addContent("\n\n<article class=\"" + color + "\" id=\"" + str(data["num"]) + "\">")
-addContent("\n<h2><a href=\"" + site_url + str(data["num"]) + "\">" + x.strftime("%Y-%m-%d") + "</a></h2>")
+addContent("\n<h2><a target=\"_top\" href=\"" + site_url + str(data["num"]) + "\">" + x.strftime("%Y-%m-%d") + "</a></h2>")
 addContent("\n<p class=\"time\">&#x1F555;" + x.strftime("%H:%M") + "</p>")
 addContent("\n<p class=\"content\">" + message + "</p>")
 if q_image == "y":
