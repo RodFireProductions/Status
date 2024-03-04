@@ -6,6 +6,7 @@ x = datetime.datetime.now()
 
 ## -- Setting Up Functions & Variables -- ##
 site_url = "https://status.shroom.ink/#"
+img_url = "./src/img/status/"
 code = ""
 image = ""
 c_image = ""
@@ -32,7 +33,7 @@ def replace_last_color(new_color):
         f.truncate()
         f.write(new_color)
 
-def addContent(content):
+def add_content(content):
     global code
     code += content
 
@@ -54,13 +55,13 @@ with open('site/_data/x.json', 'r+') as f:
     f.truncate()
 
 ## -- Creating the HTML -- ##
-addContent("\n\n<article class=\"" + color + "\" id=\"" + str(data["num"]) + "\">")
-addContent("\n<h2><a target=\"_top\" href=\"" + site_url + str(data["num"]) + "\">" + x.strftime("%Y-%m-%d") + "</a></h2>")
-addContent("\n<p class=\"time\">&#x1F555;" + x.strftime("%H:%M") + "</p>")
-addContent("\n<p class=\"content\">" + message + "</p>")
+add_content('\n\n<article class="{0}" id="{1}">'.format(color, str(data["num"])))
+add_content('\n<h2><a target="_top" href="{0}{1}">{2}</a></h2>'.format(site_url, str(data["num"]), x.strftime("%Y-%m-%d")))
+add_content('\n<p class="time">&#x1F555;{0}</p>'.format(x.strftime("%H:%M")))
+add_content('\n<p class="content">{0}</p>'.format(message))
 if q_image == "y":
-    addContent("\n<figure><img loading=\"lazy\" src=\"./src/img/status/"+ image + "\"><figcaption>" + c_image +"</figcaption></figure>")
-addContent("\n</article>")
+    add_content('\n<figure><img loading="lazy" src="{0}{1}"><figcaption>{2}</figcaption></figure>'.format(img_url, image, c_image));
+add_content('\n</article>')
 
 replace_last_color(color)
 
