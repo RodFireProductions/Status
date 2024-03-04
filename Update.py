@@ -4,8 +4,8 @@ import datetime
 import json
 x = datetime.datetime.now()
 
-site_url = "https://status.shroom.ink/#"
 ## -- Setting Up Functions & Variables -- ##
+site_url = "https://status.shroom.ink/#"
 code = ""
 image = ""
 c_image = ""
