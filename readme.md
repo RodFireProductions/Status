@@ -9,7 +9,9 @@ Features:
 
 ## Updating Status
 
-Run `Update.py` to update status. To update the status, commit, and push to origin, you'll have to change the directory listed in `Status Update.bat` and then run it.
+Run `Update.py` to update status. Make sure to change `site_url` to the url you'll be using.
+
+To update the status and push it via Git, you'll have to change the directory listed in `Status Update.bat` and then run it.
 
 ## Running The Site
 
