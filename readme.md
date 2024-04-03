@@ -9,7 +9,7 @@ Features:
 
 ## Updating Status
 
-Run `Update.py` to update status. Make sure to change `site_url` to the url you'll be using.
+Run `Update.py` to update status.
 
 To update the status and push it via Git, you'll have to change the directory listed in `Status Update.bat` and then run it.
 
@@ -17,7 +17,7 @@ To update the status and push it via Git, you'll have to change the directory li
 
 ```
 > cd site
-> bundle exec jekyll serve
+> jekyll serve
 ```
 
-http://localhost:4000
+Your site will be hosted at http://localhost:4000
