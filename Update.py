@@ -25,24 +25,26 @@ try:
         data["last_color"] = color
 
         new_entry = {};
-        new_entry["color"] = color
+        new_entry["id"] = data["num"]
         new_entry["time"] = date.strftime("%H:%M")
         new_entry["date"] = date.strftime("%Y-%m-%d")
+        new_entry["color"] = color
         new_entry["content"] = message
 
         if q_image == "y":
             new_entry["image"] = [c_image, image]
         else:
-            new_entry["image"] = null
+            new_entry["image"] = None
             
-        data.list.append(new_entry)
+        data["list"].append(new_entry)
 
         f.seek(0)
         json.dump(data, f, indent=4)
         f.truncate()
     
     print("\nEntry " + str(data["num"]) + " written. <3")
-except:
-    print("\nAn error has occurred.")
+except Exception as e:
+    print("\nAn error has occurred:")
+    print(e)
 finally:
     print("-------")
