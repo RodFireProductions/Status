@@ -1,7 +1,20 @@
+{% assign reversed = site.data.entries.list | reverse %}
+{% for entry in reversed limit:1 %}
+<article class="{{ entry.color }}" id="{{ entry.id }}">
+<h2>
+	<a target="_top" href="{{ site.url }}#{{ entry.id }}">
+		{{ entry.date }}
+	</a>
+</h2>
+<p class="time">&#x1F555;{{ entry.time }}</p>
+<p class="content">{{ entry.content }}</p>
 
-
-<article class="purple" id="21">
-<h2><a target="_top" href="https://status.shroom.ink/#21">2024-03-25</a></h2>
-<p class="time">&#x1F555;20:03</p>
-<p class="content">With each passing day, I'm getting closer and closer to graduation. Soon I'll no longer be tied to school. It feels weird since all my life so far has been.</p>
+	{% if entry.image != null %}
+	<figure>
+		<img loading="lazy" src="./src/img/status/{{ entry.image[1] }}">
+		<figcaption>{{ entry.image[0] }}</figcaption>
+  	</figure>
+	{% endif %}
+  
 </article>
+{% endfor %}
