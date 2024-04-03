@@ -1,6 +1,5 @@
 {% assign reversed = site.data.entries.list | reverse %}
-{% for entry in reverse limit:1 %}
-
+{% for entry in reversed limit:1 %}
 <article class="{{ entry.color }}" id="{{ entry.id }}">
 <h2>
 	<a target="_top" href="{{ site.url }}#{{ entry.id }}">
@@ -13,8 +12,9 @@
 	{% if entry.image != null %}
 	<figure>
 		<img loading="lazy" src="./src/img/status/{{ entry.image[1] }}">
-		<figcaption>{{ entry.image[0] }}</figcaption></figure>
-	</article>
+		<figcaption>{{ entry.image[0] }}</figcaption>
+  	</figure>
 	{% endif %}
-
+  
+</article>
 {% endfor %}
