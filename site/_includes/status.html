@@ -1,14 +1,11 @@
 {% assign reversed = site.data.entries.list | reverse %}
 {% for entry in reversed %}
 <article class="{{ entry.color }}" id="{{ entry.id }}">
-<h2>
-	<a target="_top" href="{{ site.url }}#{{ entry.id }}">
-		{{ entry.date }}
-	</a>
-</h2>
+<a target="_top" href="{{ site.url }}#{{ entry.id }}">
+	<h2>{{ entry.date }}</h2>
+</a>
 <p class="time">&#x1F555;{{ entry.time }}</p>
 <p class="content">{{ entry.content }}</p>
-
 	{% if entry.image != null %}
 	<figure>
 		<img loading="lazy" src="./src/img/status/{{ entry.image[1] }}">
