@@ -1,6 +1,6 @@
 {
-    "num":21,
-    "last_color":"purple",
+    "num":22,
+    "last_color":"green-alt",
     "list":[
         {
             "id":1,
@@ -184,6 +184,14 @@
             "color":"purple",
             "content":"With each passing day, I'm getting closer and closer to graduation. Soon I'll no longer be tied to school. It feels weird since all my life so far has been.",
             "image":null
-        }
+        },
+		{
+			"id":22,
+			"time":"09:30",
+			"date":"2024-04-15",
+			"color":"green-alt",
+			"content":"Last few weeks of college means many many many projects coming to a grind. I am dying.",
+			"image":null
+		}
     ]
 }
