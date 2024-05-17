@@ -1,205 +1,213 @@
 {
-    "num":23,
-    "last_color":"pink",
-    "list":[
+    "num": 24,
+    "last_color": "green",
+    "list": [
         {
-            "id":1,
-            "time":"20:30",
-            "date":"2023-11-15",
-            "color":"white",
-            "content":"Nothing like spending 3 hours on a whim. Now I have this status website. The process of updating it is pretty straightforward. Let's see if I actually use it.",
-            "image":null
+            "id": 1,
+            "time": "20:30",
+            "date": "2023-11-15",
+            "color": "white",
+            "content": "Nothing like spending 3 hours on a whim. Now I have this status website. The process of updating it is pretty straightforward. Let's see if I actually use it.",
+            "image": null
         },
         {
-            "id":2,
-            "time":"23:32",
-            "date":"2023-11-15",
-            "color":"pink-alt",
-            "content":"Nothing like staying up late reading angsty fanfiction instead of getting a decent amount of sleep. I wish I didn't have classes tomorrow.",
-            "image":null
+            "id": 2,
+            "time": "23:32",
+            "date": "2023-11-15",
+            "color": "pink-alt",
+            "content": "Nothing like staying up late reading angsty fanfiction instead of getting a decent amount of sleep. I wish I didn't have classes tomorrow.",
+            "image": null
         },
         {
-            "id":3,
-            "time":"11:57",
-            "date":"2023-11-16",
-            "color":"green-alt",
-            "content":"I've been working on a \"ponycycle\" model for my animation class, and I'm kinda in love with it. It's really cute. I'm looking forward to texturing it.",
-            "image":[
+            "id": 3,
+            "time": "11:57",
+            "date": "2023-11-16",
+            "color": "green-alt",
+            "content": "I've been working on a \"ponycycle\" model for my animation class, and I'm kinda in love with it. It's really cute. I'm looking forward to texturing it.",
+            "image": [
                 "A 3D model of a horse shaped motorcycle.",
                 "pony_model.png"
             ]
         },
         {
-            "id":4,
-            "time":"21:43",
-            "date":"2023-11-17",
-            "color":"white",
-            "content":"Don't you love it when you forget something at a place you won't be able to go back to for over a week.",
-            "image":null
+            "id": 4,
+            "time": "21:43",
+            "date": "2023-11-17",
+            "color": "white",
+            "content": "Don't you love it when you forget something at a place you won't be able to go back to for over a week.",
+            "image": null
         },
         {
-            "id":5,
-            "time":"13:31",
-            "date":"2023-11-18",
-            "color":"purple",
-            "content":"It's crazy how certain environments drain your energy even when nothing is the matter. Somehow my bedroom is a safe haven and a parasite at the same time. It drains me more than being in my dorm room.",
-            "image":null
+            "id": 5,
+            "time": "13:31",
+            "date": "2023-11-18",
+            "color": "purple",
+            "content": "It's crazy how certain environments drain your energy even when nothing is the matter. Somehow my bedroom is a safe haven and a parasite at the same time. It drains me more than being in my dorm room.",
+            "image": null
         },
         {
-            "id":6,
-            "time":"19:18",
-            "date":"2023-11-19",
-            "color":"black",
-            "content":"Is my carpet moldy or is it just weirdly dirty? Who knows? I'm getting rid of it regardless.",
-            "image":null
+            "id": 6,
+            "time": "19:18",
+            "date": "2023-11-19",
+            "color": "black",
+            "content": "Is my carpet moldy or is it just weirdly dirty? Who knows? I'm getting rid of it regardless.",
+            "image": null
         },
         {
-            "id":7,
-            "time":"00:01",
-            "date":"2023-11-20",
-            "color":"green",
-            "content":"My body has no right to be this hungry at midnight. Was me feeding it 6 hours ago not enough?? As far as I'm concerned, I shouldn't have to feed it for another week.",
-            "image":null
+            "id": 7,
+            "time": "00:01",
+            "date": "2023-11-20",
+            "color": "green",
+            "content": "My body has no right to be this hungry at midnight. Was me feeding it 6 hours ago not enough?? As far as I'm concerned, I shouldn't have to feed it for another week.",
+            "image": null
         },
         {
-            "id":8,
-            "time":"20:13",
-            "date":"2023-11-27",
-            "color":"pink",
-            "content":"There's two weeks left of this college semester. I'm both eager for it and dreading it. I have so much to get done.",
-            "image":null
+            "id": 8,
+            "time": "20:13",
+            "date": "2023-11-27",
+            "color": "pink",
+            "content": "There's two weeks left of this college semester. I'm both eager for it and dreading it. I have so much to get done.",
+            "image": null
         },
         {
-            "id":9,
-            "time":"21:53",
-            "date":"2023-11-28",
-            "color":"blood",
-            "content":"Due to me having a new laptop, I finally stopped using sunsetted Atom and downloaded Pulsar. It's just like Atom and has all the packages and themes so it's like I never switched, but my soul still hurts... Anyways, I now have Astarion as my background image 🖤",
-            "image":[
+            "id": 9,
+            "time": "21:53",
+            "date": "2023-11-28",
+            "color": "blood",
+            "content": "Due to me having a new laptop, I finally stopped using sunsetted Atom and downloaded Pulsar. It's just like Atom and has all the packages and themes so it's like I never switched, but my soul still hurts... Anyways, I now have Astarion as my background image \u00f0\u0178\u2013\u00a4",
+            "image": [
                 "Pulsar screenshot featuring an image of Astarion as the editor background.",
                 "Pulsar.png"
             ]
         },
         {
-            "id":10,
-            "time":"10:26",
-            "date":"2023-12-04",
-            "color":"green-alt",
-            "content":"This is my last week of the semester. I gotta finish quite a few projects. I'm burning out—I wanna rest.",
-            "image":null
+            "id": 10,
+            "time": "10:26",
+            "date": "2023-12-04",
+            "color": "green-alt",
+            "content": "This is my last week of the semester. I gotta finish quite a few projects. I'm burning out\u00e2\u20ac\u201dI wanna rest.",
+            "image": null
         },
         {
-            "id":11,
-            "time":"16:18",
-            "date":"2023-12-06",
-            "color":"purple",
-            "content":"I'm so close to be being down with this semester. Just a few more things to finish, and I'll be home free. I wanna sleep 💤",
-            "image":null
+            "id": 11,
+            "time": "16:18",
+            "date": "2023-12-06",
+            "color": "purple",
+            "content": "I'm so close to be being down with this semester. Just a few more things to finish, and I'll be home free. I wanna sleep \u00f0\u0178\u2019\u00a4",
+            "image": null
         },
         {
-            "id":12,
-            "time":"18:53",
-            "date":"2023-12-12",
-            "color":"pink",
-            "content":"One last exam and then I'm done with this school semester 🎉",
-            "image":null
+            "id": 12,
+            "time": "18:53",
+            "date": "2023-12-12",
+            "color": "pink",
+            "content": "One last exam and then I'm done with this school semester \u00f0\u0178\u017d\u2030",
+            "image": null
         },
         {
-            "id":13,
-            "time":"00:35",
-            "date":"2023-12-14",
-            "color":"green-alt",
-            "content":"What a woman.",
-            "image":[
+            "id": 13,
+            "time": "00:35",
+            "date": "2023-12-14",
+            "color": "green-alt",
+            "content": "What a woman.",
+            "image": [
                 "A collage of The Huntress from Dead By Daylight",
                 "huntress_collage.webp"
             ]
         },
         {
-            "id":14,
-            "time":"23:14",
-            "date":"2023-12-24",
-            "color":"white",
-            "content":"I wanna be productive but I also don't want to do anything. This is the last break I got before I gotta go back to school and then aftwards find a job.",
-            "image":null
+            "id": 14,
+            "time": "23:14",
+            "date": "2023-12-24",
+            "color": "white",
+            "content": "I wanna be productive but I also don't want to do anything. This is the last break I got before I gotta go back to school and then aftwards find a job.",
+            "image": null
         },
         {
-            "id":15,
-            "time":"23:42",
-            "date":"2024-01-05",
-            "color":"blood-alt",
-            "content":"There's nothing like dressing up a character and taking selfies in a video game. Besides that, I'm hoping to actually update some of my sites soon.",
-            "image":[
-                "A selfie taken in the game Pareidolia In █▄██▄▄.",
+            "id": 15,
+            "time": "23:42",
+            "date": "2024-01-05",
+            "color": "blood-alt",
+            "content": "There's nothing like dressing up a character and taking selfies in a video game. Besides that, I'm hoping to actually update some of my sites soon.",
+            "image": [
+                "A selfie taken in the game Pareidolia In \u00e2\u2013\u02c6\u00e2\u2013\u201e\u00e2\u2013\u02c6\u00e2\u2013\u02c6\u00e2\u2013\u201e\u00e2\u2013\u201e.",
                 "pareidolia.png"
             ]
         },
         {
-            "id":16,
-            "time":"06:35",
-            "date":"2024-01-07",
-            "color":"pink-alt",
-            "content":"I'm a week away from having to move back into my dorm...I ache to scream into the void.",
-            "image":null
+            "id": 16,
+            "time": "06:35",
+            "date": "2024-01-07",
+            "color": "pink-alt",
+            "content": "I'm a week away from having to move back into my dorm...I ache to scream into the void.",
+            "image": null
         },
         {
-            "id":17,
-            "time":"02:37",
-            "date":"2024-01-19",
-            "color":"green",
-            "content":"New semester has started. So far so good. Hopefully it stays that way.",
-            "image":null
+            "id": 17,
+            "time": "02:37",
+            "date": "2024-01-19",
+            "color": "green",
+            "content": "New semester has started. So far so good. Hopefully it stays that way.",
+            "image": null
         },
         {
-            "id":18,
-            "time":"00:29",
-            "date":"2024-02-08",
-            "color":"pink",
-            "content":"I am officially no longer a teenager 🎉",
-            "image":null
+            "id": 18,
+            "time": "00:29",
+            "date": "2024-02-08",
+            "color": "pink",
+            "content": "I am officially no longer a teenager \u00f0\u0178\u017d\u2030",
+            "image": null
         },
         {
-            "id":19,
-            "time":"12:50",
-            "date":"2024-02-21",
-            "color":"black",
-            "content":"I'm considering diving head first back into RPG Maker MV. I'm currently fleshing out a game concept that involves clowns. 🤡",
-            "image":[
+            "id": 19,
+            "time": "12:50",
+            "date": "2024-02-21",
+            "color": "black",
+            "content": "I'm considering diving head first back into RPG Maker MV. I'm currently fleshing out a game concept that involves clowns. \u00f0\u0178\u00a4\u00a1",
+            "image": [
                 "Headshot of main character concept.",
                 "DevilClown.webp"
             ]
         },
         {
-            "id":20,
-            "time":"16:56",
-            "date":"2024-03-02",
-            "color":"blood-alt",
-            "content":"Balancing school, personal projects, and down time is not fun. :(",
-            "image":null
+            "id": 20,
+            "time": "16:56",
+            "date": "2024-03-02",
+            "color": "blood-alt",
+            "content": "Balancing school, personal projects, and down time is not fun. :(",
+            "image": null
         },
         {
-            "id":21,
-            "time":"20:03",
-            "date":"2024-03-25",
-            "color":"purple",
-            "content":"With each passing day, I'm getting closer and closer to graduation. Soon I'll no longer be tied to school. It feels weird since all my life so far has been.",
-            "image":null
+            "id": 21,
+            "time": "20:03",
+            "date": "2024-03-25",
+            "color": "purple",
+            "content": "With each passing day, I'm getting closer and closer to graduation. Soon I'll no longer be tied to school. It feels weird since all my life so far has been.",
+            "image": null
         },
-		{
-			"id":22,
-			"time":"09:30",
-			"date":"2024-04-15",
-			"color":"green-alt",
-			"content":"Last few weeks of college means many many many projects coming to a grind. I am dying.",
-			"image":null
-		},
-		{
-			"id":23,
-			"time":"19:53",
-			"date":"2024-05-01",
-			"color":"pink",
-			"content":"Crunch time. Crunch time. No sleep for crunch time. 🙃",
-			"image":null
-		}
+        {
+            "id": 22,
+            "time": "09:30",
+            "date": "2024-04-15",
+            "color": "green-alt",
+            "content": "Last few weeks of college means many many many projects coming to a grind. I am dying.",
+            "image": null
+        },
+        {
+            "id": 23,
+            "time": "19:53",
+            "date": "2024-05-01",
+            "color": "pink",
+            "content": "Crunch time. Crunch time. No sleep for crunch time. \u00f0\u0178\u2122\u0192",
+            "image": null
+        },
+        {
+            "id": 24,
+            "time": "23:23",
+            "date": "2024-05-16",
+            "color": "green",
+            "content": "Guess who just graduate!! \ud83c\udf89\ud83c\udf1f\u2728",
+            "image": null
+        }
     ]
 }
