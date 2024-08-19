@@ -1,6 +1,6 @@
 {
-    "num": 24,
-    "last_color": "green",
+    "num": 25,
+    "last_color": "black",
     "list": [
         {
             "id": 1,
@@ -207,6 +207,14 @@
             "date": "2024-05-16",
             "color": "green",
             "content": "Guess who just graduate!! \ud83c\udf89\ud83c\udf1f\u2728",
+            "image": null
+        },
+        {
+            "id": 25,
+            "time": "13:23",
+            "date": "2024-08-19",
+            "color": "black",
+            "content": "I'm alive. Currently burning in retail hell right now though.",
             "image": null
         }
     ]
