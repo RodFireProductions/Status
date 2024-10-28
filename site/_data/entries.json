@@ -1,6 +1,6 @@
 {
-    "num": 25,
-    "last_color": "black",
+    "num": 26,
+    "last_color": "pink-alt",
     "list": [
         {
             "id": 1,
@@ -215,6 +215,14 @@
             "date": "2024-08-19",
             "color": "black",
             "content": "I'm alive. Currently burning in retail hell right now though.",
+            "image": null
+        },
+        {
+            "id": 26,
+            "time": "18:18",
+            "date": "2024-10-28",
+            "color": "pink-alt",
+            "content": "How do people do things? Like how do they think about doing something and then actually do it? I think about needing to do the same things everyday but then can never do them.",
             "image": null
         }
     ]
