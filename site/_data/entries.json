@@ -1,6 +1,6 @@
 {
-    "num": 26,
-    "last_color": "pink-alt",
+    "num": 27,
+    "last_color": "green",
     "list": [
         {
             "id": 1,
@@ -223,6 +223,14 @@
             "date": "2024-10-28",
             "color": "pink-alt",
             "content": "How do people do things? Like how do they think about doing something and then actually do it? I think about needing to do the same things everyday but then can never do them.",
+            "image": null
+        },
+        {
+            "id": 27,
+            "time": "16:10",
+            "date": "2025-01-03",
+            "color": "green",
+            "content": "2025 🎉 let's hope it's not too bad.",
             "image": null
         }
     ]
