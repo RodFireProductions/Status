@@ -16,7 +16,7 @@ To update the status and push it via Git, you'll have to change the directory li
 ## Running The Site
 
 ```
-> cd site
+> cd docs
 > jekyll serve
 ```
 
