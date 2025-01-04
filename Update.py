@@ -11,7 +11,7 @@ if q_image == "y":
     image = input("Image file: ")
     c_image = input("Image Caption:\n    ")
 
-with open('site/_data/entries.json', 'r+', encoding='utf-8') as f:
+with open('docs/_data/entries.json', 'r+', encoding='utf-8') as f:
         last_color = json.load(f)
         last_color = last_color["last_color"]
 color = input("\nWhat color do you want? Last color: " + last_color + "\npurple, green, green-alt, blood, blood-alt, pink, pink-alt, black, white\n    ")
@@ -19,7 +19,7 @@ color = input("\nWhat color do you want? Last color: " + last_color + "\npurple,
 ## -- Updating data -- ##
 
 try:
-    with open('site/_data/entries.json', 'r+', encoding='utf-8') as f:
+    with open('docs/_data/entries.json', 'r+', encoding='utf-8') as f:
         data = json.load(f)
         data["num"] += 1
         data["last_color"] = color

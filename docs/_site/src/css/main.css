@@ -1,0 +1,213 @@
+
+@font-face {
+    font-family: 'Averia Libre';
+    src: local('Averia Libre'),
+    url("https://deadrodrick.neocities.org/src/AveriaLibre-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Gothic War';
+    src: local('Gothic War'),
+    url("https://deadrodrick.neocities.org/src/Gothic War.otf") format("opentype");
+    /* https://www.dafont.com/gothic-war.font */
+}
+
+/* --- */
+
+@media only screen and (max-width: 800px) {
+    #page {
+        width: calc(90% - 4em) !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto!important;
+        grid-template-areas: "header" "info" "status" !important;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    #page { width: calc(900px - 4em) !important; }
+}
+
+/* --- */
+
+:root {
+    --bg-img        : url('../img/background.png');
+    --bg-color      : black;
+    --fg-img        : url('');
+    --fg-color      : white;
+
+    --font-color    : black;
+    --font-title    : serif;
+    --font-main     : sans-serif;
+    --font-size     : calc(1rem + (1.2vw / 5));
+
+    --outline       : ;
+
+    --accent-color  : #333;
+}
+
+.green {
+  --font-color: #fefcea;
+  --fg-color: #008080;
+  --bg-color: var(--font-color);
+  --accent-color: #fff;
+}
+
+.green-alt {
+  --font-color: #008080;
+  --fg-color: #fefcea;
+  --bg-color: var(--font-color);
+  --accent-color: #000;
+}
+
+.purple {
+  --font-color: #00ffff;
+  --fg-color: #604264;
+  --bg-color: var(--font-color);
+  --accent-color: #fff;
+}
+
+.blood {
+  --font-color: #b5ffff;
+  --fg-color: #3e0620;
+  --bg-color: var(--font-color);
+  --accent-color: #fff;
+}
+
+.blood-alt {
+  --font-color: #3e0620;
+  --fg-color: #b5ffff;
+  --bg-color: var(--font-color);
+  --accent-color: #000;
+}
+
+.pink {
+  --font-color: #1a1e40;
+  --fg-color: #ee82ee;
+  --bg-color: var(--font-color);
+  --accent-color: #000;
+}
+
+.pink-alt {
+  --font-color: #ee82ee;
+  --fg-color: #1a1e40;
+  --bg-color: var(--font-color);
+  --accent-color: #fff;
+}
+
+.black {
+  --font-color: #fff;
+  --fg-color: #000;
+  --bg-color: var(--font-color);
+  --accent-color: #ccc;
+}
+
+.white {
+  --font-color: #000;
+  --fg-color: #fff;
+  --bg-color: var(--font-color);
+  --accent-color: #333;
+}
+
+/* --- */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title);
+    color: var(--accent-color);
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+}
+
+a { color: var(--accent-color); }
+a:hover { color: var(--font-color); }
+
+a h2:hover { color: var(--font-color); }
+
+article a { text-decoration: none; }
+article a:hover { text-decoration: underline; }
+
+body {
+    background: var(--bg-img) var(--bg-color);
+    background-attachment: fixed;
+    font-size: var(--font-size);
+    font-family: var(--font-main);
+    color: var(--font-color);
+}
+
+#page {
+    background: var(--fg-img) var(--fg-color);
+    width: calc(60% - 4em);
+    margin: 2em auto;
+
+    padding: 2em;
+
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "header status" "info status";
+    grid-gap: 1em;
+}
+
+main { grid-area: status; }
+header { grid-area: header; }
+aside { grid-area: info; }
+
+/* --- */
+
+.center { text-align: center; }
+img.center { margin: auto; display: block; }
+
+#status {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 1em;
+}
+
+article {
+    outline: var(--font-color) 5px dotted;
+    outline-offset: -6px;
+    padding: .5em 1em;
+    color: var(--font-color);
+    background: var(--fg-img) var(--fg-color);
+
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    grid-gap: .5em;
+
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "title time" "content content" "image image";
+}
+#article h2 { grid-area: title; }
+.time { grid-area: time; }
+.content { grid-area: content; }
+figure { grid-area: image; }
+
+#status h2, #status p {
+    margin: 5px 0;
+}
+
+figure {
+	width: calc(100%  - 2em);
+	margin: auto;
+}
+
+figure img {
+    width: 90%;
+    display: block;
+    margin: 5px auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat( auto-fill, minmax(100px, 1fr) );
+	align-items: center;
+	justify-content: center;
+    justify-items: center;
+	grid-gap: .5em;
+	margin: .5em;
+}
