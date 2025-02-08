@@ -1,6 +1,6 @@
 {
-    "num": 28,
-    "last_color": "white",
+    "num": 29,
+    "last_color": "black",
     "list": [
         {
             "id": 1,
@@ -239,6 +239,14 @@
             "date": "2025-02-07",
             "color": "white",
             "content": "Work and code and work and code and Hatsune Miku and work and code and",
+            "image": null
+        },
+        {
+            "id": 29,
+            "time": "01:16",
+            "date": "2025-02-08",
+            "color": "black",
+            "content": "I got older.",
             "image": null
         }
     ]
