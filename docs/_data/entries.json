@@ -1,6 +1,6 @@
 {
-    "num": 29,
-    "last_color": "black",
+    "num": 30,
+    "last_color": "blood",
     "list": [
         {
             "id": 1,
@@ -247,6 +247,14 @@
             "date": "2025-02-08",
             "color": "black",
             "content": "I got older.",
+            "image": null
+        },
+        {
+            "id": 30,
+            "time": "19:00",
+            "date": "2025-09-15",
+            "color": "blood",
+            "content": "Still kicking, believe it or not.",
             "image": null
         }
     ]
