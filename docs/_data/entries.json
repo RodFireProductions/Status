@@ -1,6 +1,6 @@
 {
-    "num": 30,
-    "last_color": "blood",
+    "num": 31,
+    "last_color": "black",
     "list": [
         {
             "id": 1,
@@ -255,6 +255,14 @@
             "date": "2025-09-15",
             "color": "blood",
             "content": "Still kicking, believe it or not.",
+            "image": null
+        },
+        {
+            "id": 31,
+            "time": "23:36",
+            "date": "2025-11-21",
+            "color": "black",
+            "content": "I stare into the void...<br>And it stares back at me...",
             "image": null
         }
     ]
