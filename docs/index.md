@@ -4,7 +4,7 @@ layout: html
 theme: blood
 ---
 
-Howdy! I'm an artist, game dev, web dev, and student!
+Howdy! I'm an artist, game dev, and web dev!
 
 <div class="center">
     <a href="https://journal.miso.town/validate-by-url?url=https%3A%2F%2Fstatus.shroom.ink%2F" target="_blank"><img src="./src/img/banner-htmlj.png" alt="HTML Journal Validation Banner"></a>
