@@ -6,16 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href={{'src/css/main.css'|relative_url}}>
 		<style>
+            body { margin: 0px; }
+            h2 { margin: 5px; }
+            p { margin: 2px; }
+
 			article {
 				display: block;
 				width: calc(100% - 2em);
 				height: calc(100vh - 2em);
-
+                font-size: 0.8em;
 				overflow-y: auto;
-
 				text-align: center;
-
+                scrollbar-width: thin;
+                scrollbar-color: var(--font-color) var(--fg-color);
 			}
+
 			@media only screen and (max-width: 290px) {
 				article {
 					grid-template-columns: 1fr;

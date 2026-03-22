@@ -1,6 +1,6 @@
 {
-    "num": 32,
-    "last_color": "pink",
+    "num": 33,
+    "last_color": "green",
     "list": [
         {
             "id": 1,
@@ -271,6 +271,14 @@
             "date": "2026-03-06",
             "color": "pink",
             "content": "IT'S THE YEAR OF THE HORSE 🐎 Time for half my projects this year to be horse related 🦄",
+            "image": null
+        },
+        {
+            "id": 33,
+            "time": "23:01",
+            "date": "2026-03-21",
+            "color": "green",
+            "content": "How does one make a CV????",
             "image": null
         }
     ]
